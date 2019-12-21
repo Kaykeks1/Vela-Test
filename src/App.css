@@ -38,7 +38,8 @@
 } */
 
 .vela-app {
-
+  background-color: #E5E5E5;
+  height: 1510px;
 }
 .header {
   background-color: #FFFFFF;
@@ -127,11 +128,6 @@ color: #979797;
   flex-direction: column;
   align-items: center;
 }
-.main-content{
-  background-color: #EAEEF0;
-  width: 80%;
-  height: 1450px;
-}
 
 .sidebar-sections{
   margin-top: 20px;
@@ -171,7 +167,7 @@ color: #979797;
 }
 
 .section-item{
-  width: 100%;
+  width: auto;
   height: 32px;
   padding-left: 50px;
   display: flex;
@@ -182,4 +178,18 @@ color: #979797;
   background: #E8F1FD;
   /* opacity: 0.1; */
   border-left: 2px solid #1875F0;
+}
+
+.main-content{
+  /* background-color: #EAEEF0; */
+  width: 80%;
+  height: auto;
+  margin-top: 40px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.transaction-summary{
+  display: flex;
+  justify-content: space-between;
 }

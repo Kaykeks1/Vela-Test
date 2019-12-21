@@ -1,0 +1,36 @@
+.chart-container{
+    display: flex;
+    width: 100%
+}
+
+.chart-summary{
+    position: relative;
+    height: 329px;
+    width: 70%;
+
+    background: #FFFFFF;
+    border: 1px solid #EEF8FD;
+    box-sizing: border-box;
+    border-radius: 2px;
+}
+
+.order-payment-summary{
+    width: 30%;
+    height: auto;
+}
+.order-summary{
+    /* width: 30%; */
+    height: 50%;
+    background: #FFFFFF;
+    border: 1.5px solid #E5E5E5;
+    box-sizing: border-box;
+    border-radius: 2px;
+}
+.payment-summary{
+    /* width: 30%; */
+    height: 50%;
+    background: #FFFFFF;
+    border: 1.5px solid #E5E5E5;
+    box-sizing: border-box;
+    border-radius: 2px;
+}

@@ -2,7 +2,13 @@ import React from 'react';
 // import logo from './logo.svg';
 import 'font-awesome/css/font-awesome.css';
 import user from './Assets/images/user.png'
+import Table from './components/Table';
+import TransactionValue from './components/TransactionValue';
+import Chart from './components/Chart'
+
 import './App.css';
+
+const transactionValue=['2,342', '₦4,000,000', '452,000', '₦4,000,000']
 
 function App() {
   return (
@@ -101,7 +107,15 @@ function App() {
           <div className="sidebar-sections"></div>
         </div>
         <div className="main-content">
-          content
+          <div className="transaction-summary">
+            {
+              transactionValue.map((item, key)=>(
+                <TransactionValue index={key} value={item} />
+              ))
+            }
+          </div>
+          <Chart />
+          <Table />
         </div>
       </div>
     </div>

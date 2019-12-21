@@ -1,0 +1,135 @@
+.payment-section{
+
+}
+.select-filter{
+    background-color: transparent;
+    height: 33px;
+    width: 150px;
+    padding-left: 10px;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    /* padding-left: 10px; */
+    /* height: 513px; */
+    /* border-spacing: 0; */
+    /* height: 726px; */
+}
+th{
+    background-color: #EAEEF0;
+    height: 42px;
+    font-family: Segoe UI;
+    font-size: 14px;
+    line-height: 19px;
+    /* identical to box height */
+
+    /* display: flex;
+    align-items: flex-end; */
+
+    color: #7F8FA4;
+    text-align: left;
+
+}
+tbody>tr{
+    background-color: white;
+    /* border-bottom: 1px solid black; */
+    border: 1px solid #CCCFD4;
+    height: 70px;
+
+    font-family: Segoe UI;
+    font-size: 14px;
+    line-height: 16px;
+    /* identical to box height */
+/* 
+    display: flex;
+    align-items: flex-end; */
+
+    color: #7F8FA4;
+}
+
+th:first-child{
+    padding-left: 20px;
+}
+td:first-child{
+    padding-left: 20px;
+
+    /* font-family: Segoe UI; */
+    /* font-size: 14px; */
+    line-height: 19px;
+
+    color: #414042;
+    /* display: flex;
+    align-items: center;
+    height: auto; */
+}
+td:first-child>div{
+    color: #FFFFFF;
+    font-size: 12px;
+    line-height: 16px;
+    background: #7F8FA4;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+td:last-child{
+    display: inline-flex;
+    align-items: center;
+    height: inherit;
+}
+
+.status{
+    width: 120px;
+    height: 33px;
+
+    border: 1px solid #CCCFD4;
+    box-sizing: border-box;
+    border-radius: 30px;
+    display: flex;
+    /* justify-content: center; */
+    padding-left: 8px;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.stats-icon{
+    height: 13px;
+    width: 13px;
+    border-radius: 50%;
+    /* position: absolute;
+    margin-top: 3px; */
+}
+
+.pagination-btn{
+    margin-top: 10px;
+    float: right;
+}
+
+.page-btn{
+    border: 1px solid #CED0DA;
+    box-sizing: border-box;
+    border-radius: 2px;
+    background-color: transparent;
+    color: #000000;
+    font-family: Segoe UI;
+    font-size: 13px;
+    line-height: 17px;
+}
+.num-btn{
+    border: 1px solid #CED0DA;
+    box-sizing: border-box;
+    border-radius: 2px;
+    background-color: transparent;
+    color: #979797;
+    font-family: Segoe UI;
+    font-size: 13px;
+    line-height: 17px;
+}
+/* .table-head>th{
+    background: #EAEEF0;
+
+} */
