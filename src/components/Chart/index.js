@@ -31,11 +31,35 @@ class Chart extends Component{
                     />
                 </div>
                 <div className="order-payment-summary">
-                    <div className="order-summary">
-                        s
+                    <div className="summary">
+                        <div>Orders</div>
+                        <div className="bar-container">
+                            <div className="bar" />
+                        </div>
+                        <div className="summary-details">
+                            Pending Orders: <span style={{color: '#FDC203'}}>20</span>
+                        </div>
+                        <div className="summary-details">
+                            Reconciled Orders: <span style={{color: '#27AE60'}}>80</span>
+                        </div>
+                        <div className="summary-details">
+                            Total Orders: <span style={{color: '#1875F0'}}>100</span>
+                        </div>
                     </div>
-                    <div className="payment-summary">
-                        s
+                    <div className="summary">
+                        <div>Payments</div>
+                        <div className="bar-container">
+                            <div className="bar" />
+                        </div>
+                        <div className="summary-details">
+                            Un-reconciled Payments: <span style={{color: '#FDC203'}}>20</span>
+                        </div>
+                        <div className="summary-details">
+                            Reconciled Payments: <span style={{color: '#27AE60'}}>80</span>
+                        </div>
+                        <div className="summary-details">
+                            Total Payments: <span style={{color: '#1875F0'}}>100</span>
+                        </div>
                     </div>
                 </div>
             </div>

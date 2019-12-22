@@ -69,12 +69,13 @@ class Table extends React.Component {
     console.log("filterList: ",filterList)
     return (
       <div className="payment-section">
-        <span>Payment</span><br />
-        <span>Show&emsp;</span>
-        <select defaultValue={filterList[0]} onChange={this.changeFilter} className="select-filter">
-            {filterList.map((item,key)=><option value={item.value} key={key}>{item.label}</option>)}
-        </select>
-        
+        <span className="payment-title">Payment</span><br />
+        <div className="filter-table">
+            <span className="show-text">Show&emsp;</span>
+            <select defaultValue={filterList[0]} onChange={this.changeFilter} className="select-filter">
+                {filterList.map((item,key)=><option value={item.value} key={key}>{item.label}</option>)}
+            </select>
+        </div>
         <table>
             <thead>
                 <tr className="table-head">

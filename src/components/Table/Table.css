@@ -1,5 +1,25 @@
 .payment-section{
-
+    margin-top: 40px;
+}
+.payment-title{
+    font-family: Segoe UI;
+    font-size: 36px;
+    line-height: 48px;
+    
+    color: #262626;
+}
+.filter-table{
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+}
+.show-text{
+    font-family: Segoe UI;
+    font-size: 13px;
+    line-height: 17px;
+    /* identical to box height */
+    
+    color: #000000;
 }
 .select-filter{
     background-color: transparent;
