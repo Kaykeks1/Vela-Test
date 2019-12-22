@@ -46,8 +46,9 @@ function App() {
             <div>
               FAQ
             </div>
-            <div>
-            <i className="fa fa-bell" />
+            <div style={{position: 'relative'}}>
+              <i className="fa fa-bell" />
+              <div className="eight">8</div>
             </div>
             <div className="profile-info">
               <div>

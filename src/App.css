@@ -98,6 +98,22 @@ color: #979797;
   color: #647787;
 }
 
+.eight{
+  position: absolute;
+  font-family: Segoe UI;
+  font-size: 10px;
+  line-height: 13px;
+  text-align: center;
+  
+  color: #FCFDFF;
+  background: #1860EC;
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  top: 17px;
+  right: -5px;
+}
+
 .header-right .header-right-contents>div{
   display: flex;
   align-items: center;
